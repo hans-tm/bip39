@@ -3429,6 +3429,13 @@
             },
         },
         {
+            name: "SHIC - Shibacoin",
+            onSelect: function() {
+                network = libs.bitcoin.networks.shibacoin;
+                setHdCoin(74);
+            },
+        },
+        {
             name: "SLM - Slimcoin",
             onSelect: function() {
                 network = libs.bitcoin.networks.slimcoin;

@@ -1310,6 +1310,17 @@ scriptHash: 0xc4,
 wif: 0xbf,
 };
 
+libs.bitcoin.networks.shibacoin = {
+  messagePrefix: '\x19Shibacoin Signed Message:\n',
+  bip32: {
+    public: 0x02fadafe,
+    private: 0x02fac495
+  },
+  pubKeyHash: 0x3f,
+  scriptHash: 0x16,
+  wif: 0x9e
+};
+
 libs.bitcoin.networks.smileycoin = {
   messagePrefix: '\x18Smileycoin Signed Message:\n',
   bip32: {
